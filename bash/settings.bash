@@ -14,3 +14,5 @@ HISTFILE="$HOME/.bash_history"
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
+# force git and other programs to use my editor of choice
+export EDITOR=vim
