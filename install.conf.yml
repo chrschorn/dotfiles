@@ -19,4 +19,7 @@
     ~/.vimrc: vim-config/vimrc
 
 - shell:
-    - [vim +PlugUpdate +xall, Installing vim plugins]
+    -
+      command: vim +PlugUpdate +xall
+      stdout: true
+      description: Installing vim plugins
