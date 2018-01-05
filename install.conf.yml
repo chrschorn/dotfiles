@@ -10,9 +10,13 @@
     ~/.bashrc:
     ~/.shell:
     ~/.bash:
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+
+- link:
     ~/.vim: vim-config
     ~/.vimrc: vim-config/vimrc
 
 - shell:
-    - [git submodule update --init --recursive, Installing submodules]
     - [vim +PlugUpdate +qall, Installing vim plugins]
