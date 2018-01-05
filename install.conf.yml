@@ -20,6 +20,6 @@
 
 - shell:
     -
-      command: vim +PlugUpdate +xall
+      command: vim +PlugUpdate +qall
       stdout: true
       description: Installing vim plugins
