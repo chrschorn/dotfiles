@@ -5,21 +5,19 @@
 
 - clean: ['~']
 
-- link:
-    ~/.bash_profile:
-    ~/.bashrc:
-    ~/.shell:
-    ~/.bash:
-
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
 
 - link:
-    ~/.vim: vim-config
+    ~/.bash_profile:
+        ~/.bashrc:
+            ~/.shell:
+                ~/.bash:
+                    ~/.vim: vim-config
     ~/.vimrc: vim-config/vimrc
 
+# vim installation. submodule loading and linking has to be finished before this
 - shell:
-    -
-      command: vim +PlugUpdate +qall
+    - command: vim +PlugUpdate +qall
       stdout: true
       description: Installing vim plugins
