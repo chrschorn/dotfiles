@@ -10,10 +10,10 @@
 
 - link:
     ~/.bash_profile:
-        ~/.bashrc:
-            ~/.shell:
-                ~/.bash:
-                    ~/.vim: vim-config
+    ~/.bashrc:
+    ~/.shell:
+    ~/.bash:
+    ~/.vim: vim-config
     ~/.vimrc: vim-config/vimrc
 
 # vim installation. submodule loading and linking has to be finished before this
