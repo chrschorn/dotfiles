@@ -10,4 +10,4 @@ Done! To update, just run `./install` again.
 
 ## Notes
 
-* Some pointers by the creator of dotbot: [http://www.anishathalye.com/2014/08/03/managing-your-dotfiles/](article on his blog).
+* Some pointers by the creator of dotbot: [article on his blog](http://www.anishathalye.com/2014/08/03/managing-your-dotfiles/).
