@@ -13,6 +13,7 @@
     ~/.bashrc:
     ~/.shell:
     ~/.bash:
+    ~/.gitconfig:
     ~/.vim: vim-config
     ~/.vimrc: vim-config/vimrc
 

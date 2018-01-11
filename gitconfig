@@ -1,0 +1,8 @@
+[alias]
+    cleanall = clean -xdf
+
+[color]
+    ui = auto
+
+[push]
+    default = upstream
