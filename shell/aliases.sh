@@ -22,3 +22,11 @@ alias gco='git checkout'
 
 # aliases
 alias aliases='vim $(realname "$0")'
+
+# wait for a process to end (simple 'wait' only works for child processes of the current shell)
+
+pwait() {
+    while [ -e /proc/$1 ]; do
+        sleep 0.1
+    done
+}
