@@ -30,3 +30,5 @@ pwait() {
         sleep 0.1
     done
 }
+
+alias dutd='du -sh * | sort -sh'
