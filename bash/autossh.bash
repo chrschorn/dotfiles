@@ -1,9 +1,13 @@
 SSH_ENV="$HOME/.ssh/environment"
 
 function start_agent {
-    echo "Initialising new SSH agent..."
+    if shopt -q login_shell; then
+        echo "Initialising new SSH agent..."
+    fi
     /usr/bin/ssh-agent | sed 's/^echo/#echo/' > "${SSH_ENV}"
-    echo "Succeeded."
+    if shopt -q login_shell; then
+        echo "Succeeded."
+    fi
     chmod 600 "${SSH_ENV}"
     . "${SSH_ENV}" > /dev/null
     /usr/bin/ssh-add;
