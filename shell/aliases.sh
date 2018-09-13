@@ -23,6 +23,7 @@ alias gco='git checkout'
 # aliases
 alias aliases='vim $(realname "$0")'
 alias screens='screen -list'
+alias e.='(xdg-open . & disown) >/dev/null 2>&1'
 
 # wait for a process to end (simple 'wait' only works for child processes of the current shell)
 pwait() {
