@@ -7,7 +7,7 @@ fi
 source ~/.bash/settings.bash
 
 # Automatically start SSH agent
-source ~/.bash/autossh.bash
+# source ~/.bash/autossh.bash
 
 # Aliases
 source ~/.shell/aliases.sh
