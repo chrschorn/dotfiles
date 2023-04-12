@@ -9,6 +9,8 @@ shopt -s histappend
 HISTSIZE=1000
 HISTFILESIZE=2000
 HISTFILE="$HOME/.bash_history"
+# saves the history immediately
+PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
