@@ -4,3 +4,6 @@
 [submodule "vim-config"]
 	path = vim-config
 	url = https://github.com/chrschorn/vim-config
+[submodule "oh-my-zsh/custom/themes/powerlevel10k"]
+	path = oh-my-zsh/custom/themes/powerlevel10k
+	url = https://github.com/romkatv/powerlevel10k.git

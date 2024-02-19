@@ -1,21 +1,27 @@
 - defaults:
     link:
-        create: true
-        relink: true
+      create: true
+      relink: true
 
-- clean: ['~']
+- clean: ["~"]
 
 - shell:
+    - command: /bin/bash pre-install.sh
+      stdout: true
+      stderr: true
+      description: Running pre installation script
     - [git submodule update --init --recursive, Installing submodules]
 
 - link:
-    ~/.bash_profile:
-    ~/.bashrc:
     ~/.shell:
-    ~/.bash:
     ~/.gitconfig:
+      force: true
     ~/.vim: vim-config
     ~/.vimrc: vim-config/vimrc
+    ~/.zshrc:
+      force: true
+    ~/.oh-my-zsh/custom/themes/powerlevel10k: oh-my-zsh/custom/themes/powerlevel10k
+    ~/.p10k.zsh:
 
 # vim installation. submodule loading and linking has to be finished before this
 - shell:

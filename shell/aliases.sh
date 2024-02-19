@@ -16,8 +16,8 @@ alias gp='git push'
 alias ga='git add'
 alias gs='git status'
 alias gu='git commit --amend --no-edit'
-alias gl='git log --oneline --graph --decorate'
-alias gla='git log --oneline --all --graph --decorate'
+alias gl="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)'"
+alias gla="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all"
 alias gb='git branch'
 alias gco='git checkout'
 

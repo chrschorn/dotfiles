@@ -3,7 +3,7 @@
 How to install on a new system:
 
 ```
-git clone https://github.com/chrschorn/dotfiles ~/dotfiles && mv ~/.bashrc ~/.bashrc_old && ~/dotfiles/install
+git clone https://github.com/chrschorn/dotfiles ~/dotfiles && ~/dotfiles/install && git config --global user.email <email>
 ```
 
 Done! To update, just run `./install` again.
