@@ -9,12 +9,12 @@ if [[ "$OSTYPE" == "linux-gnu"* ]]; then
   fi
 
   # Install zsh
-  sudo apt-get install -y zsh fzf
+  sudo apt-get install -y zsh fzf thefuck
 
 elif [[ "$OSTYPE" == "darwin"* ]]; then
   echo 'Mac detected'
   # Install zsh
-  brew install zsh fzf
+  brew install zsh fzf thefuck
 else
   echo 'OS not supported'
   exit 1

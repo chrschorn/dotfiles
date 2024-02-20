@@ -20,8 +20,11 @@
     ~/.vimrc: vim-config/vimrc
     ~/.zshrc:
       force: true
-    ~/.oh-my-zsh/custom/themes/powerlevel10k: oh-my-zsh/custom/themes/powerlevel10k
+    ~/.zsh_plugins.txt:
     ~/.p10k.zsh:
+
+- create:
+    ~/.cache/completions:
 
 # vim installation. submodule loading and linking has to be finished before this
 - shell:

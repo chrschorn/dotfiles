@@ -2,8 +2,8 @@
 
 How to install on a new system:
 
-```
-git clone https://github.com/chrschorn/dotfiles ~/dotfiles && ~/dotfiles/install && git config --global user.email <email>
+```shell
+git clone https://github.com/chrschorn/dotfiles ~/dotfiles && ~/dotfiles/install; git config -f ~/.gitconfig_local user.email <email>
 ```
 
 Done! To update, just run `./install` again.
