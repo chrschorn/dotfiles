@@ -1,31 +1,43 @@
 [user]
-	name = Christoph Schorn
+    name = Christoph Schorn
 
 [core]
-	editor = "code --wait"
+    editor = "code --wait"
+    excludesFile = ~/.gitignore
+
 [alias]
     cleanall = clean -xdf
     staash = stash --all
+
 [safe]
-	directory = *
+    directory = *
+
 [column]
-	ui = auto
+    ui = auto
+
 [branch]
-	sort = -committerdate
+    sort = -committerdate
+
 [rerere]
-	enabled = true
+    enabled = true
+
 [fetch]
-	writeCommitGraph = true
+    writeCommitGraph = true
+
 [color]
     ui = auto
+
 [push]
     default = upstream
+
 [pull]
-	ff = only
+    ff = only
+
 [merge]
-	conflictstyle = diff3
+    conflictstyle = diff3
+
 [rebase]
-	autosquash = true
+    autosquash = true
 
 # Allow local customizations in the .gitconfig_local file
 [include]
