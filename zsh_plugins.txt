@@ -1,6 +1,5 @@
 # needed here first to run some of the oh-my-zsh plugins
 mattmc3/ez-compinit
-zshzoo/completion
 
 # oh-my-zsh and builtin plugins
 ohmyzsh/ohmyzsh path:lib
